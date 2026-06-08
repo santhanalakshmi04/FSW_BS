@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Website Dropdown</title>
+     <style>
+        .gridstyle{
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+           
+        }
+       
+    </style>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+    <h1 class="text-center text-primary">
+        ShopEasy
+    </h1>
+    <hr>
+     <ul class="nav nav-pills nav-justified">
+
+    
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#">
+                Home
+            </a>
+        </li>
+
+        <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle"
+               data-bs-toggle="dropdown"
+               href="#">
+               Products
+            </a>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Mobile Phones
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Laptops
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Smart Watches
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+        <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle"
+               data-bs-toggle="dropdown"
+               href="#">
+               Offers
+            </a>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Today's Deals
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Festival Sale
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Coupons
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+        <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle"
+               data-bs-toggle="dropdown"
+               href="#">
+               Account
+            </a>
+
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Login
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Register
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="#">
+                        Logout
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+    </ul>
+    <hr>
+
+     <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators / Dots -->
+ 
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"> </button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+ 
+            <!-- SlideShow / Carousel -->
+             <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://img.magnific.com/premium-photo/poster-big-sale-with-banner-that-says-big-sale_1315312-75013.jpg" alt="Log" class="d-block" style="width: 100%;">
+                    
+                </div>
+ 
+                <div class="carousel-item">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/iphone-17-pro--iphone-17-pro-max-102851119-16x9_0.jpg?VersionId=s5MCshBogCz77a2pkeLhk2Cixj6XCyhn&size=690:388" alt="Log" class="d-block" style="width: 100%;">
+                    <br>
+                   <div class="carousel-caption">
+                    <h1>iPhone 17 Pro</h1>
+                    <p>Experience the Future of Smartphones</p>
+                    <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+ 
+                <div class="carousel-item">
+                    <img src="https://s.yimg.com/lo/mysterio/api/b4582c0b86d5cd3c780547b2fc11dd6e252ff0ae5c12feea40bc710702e86b37/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fwindows_central_293%2F969dec533358a08470df22939174e40c" alt="Log" class="d-block" style="width: 100%;">
+                    <br>
+                    <div class="carousel-caption text-dark">
+                    <h2>Study • Work • Create</h2>
+                    <p>Perfect Companion for Students and Professionals</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                <img src="https://www.fireboltt.com/cdn/shop/articles/Blog-Banner-raw_074b3943-9815-4aee-9542-53a8add37a9c.png?v=1768220077" alt="Log" class="d-block" style="width: 100%;">
+                <br><br>
+                   <div class="carousel-caption">
+                    <h2>Track Every Move</h2>
+                    <p>Monitor Steps, Heart Rate & Calories Burned</p>
+                </div>
+                </div>
+             </div>
+        </div>
+
+        <br>
+
+        <h2>Mobiles</h2><br>
+         <div class="gridstyle">
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQzUv_0ywKmbZ30wPVUy9V-0WozpEVf3GUwscIBS-6Mg3yeXvTlAhu6oQ1Lm1T73N1ClTVVzfaoOfEDjVZIqzPEK0A52MPQOctm6DwFJvV0iKrUux_o-gpqWQS21KHOcf1RlU6sTDU&usqp=CAc" alt="Course Image" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Vivo Y31 128 GB, 6 GB RAM, Red, Mobile Phone</h5>
+                    
+ 
+                    <button class="btn btn-primary" type="button"> RS - 23,999/-</button>
+                </div>
+            </div>
+
+             <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4xGQDLYp9BJeRL8TrKR1DALSXcD9MfMxENTrwGP9Iuz9IG5vIGGpy2-1Q_9p55H6q8AA0aFtXhJsqRWvO76MKOCNfsxudashWVoNeZ1nlkx-rx9hMlsMX2Fbfej1hORYXewgGtw&usqp=CAc" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Vivo Y31 128 GB, 6 GB RAM, Red, Mobile Phone</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 20,499/-</button>
+                </div>
+            </div>
+
+             <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEA8PDxAPDw8PEA8PDQ8PDw8PDw0PFREXFxUSFRYYHSggGBolGxUVIT0hJSorLi8uFx8zODMsNygtLisBCgoKDg0OGA8PFy0eHR8tLS0rLS0tLS0rLS0tLS0tLSstLSstLSsrKy0tLS0tLSstLS0rKy0tNy0tKy8rLi0rLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBgUHCAT/xABNEAABAwIDAQkMBQkIAgMAAAABAAIDBBEFEiExBgcTIkFRYXGzFyMyVHN0gZGTsbLSMzWhwdEUJFJTcoKUwvAWJUJVYmSStIOEFTRj/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAjEQEAAgICAwABBQAAAAAAAAAAARECMQMSITJRIgRBUnGB/9oADAMBAAIRAxEAPwDeKEIQCxeP7oKahjElTIGB2jGgF0kh5mNGpWUXOu7HFn1ddUyuJLWSyQQNvpHFG8sAHWWl3p6EGxZd9umBsykq3DkJNOy/oL00b7cHiVV/zpvnWpQV6oKd7tQ3TkLja/3qo2kN9iHxKq/503zpRvrQ+JVXtKb51rF1M9upbpylutkjSlDaI304vEqn2lN86Ub6MXiVT7Sm+dayaVI0q0NljfPj8SqfaUvzpRvms8RqfaUvzrXDSpGlKGxO6WzxKp9rS/OvHW779LCbS007TzcJTG3XZ6o1VPkje8bWtJHXyfatfU8bJHyT1F33e4MYTo6x1cfwWZqC28Dv4UH6mb2kP4pO7hQ/qJfaQ/itLyVkA2Qwj/xM/BQGti/VRezZ+Cz2Lbv7uFD+ol9pD+Ki7u1D4rUe0p/mWk/y2P8AVRezZ+CT8tj/AFUXs2fgnYtu3u7UPitR7Sn+ZHd2ofFaj/nT/MtJsqWOIaIobk6ZmMAHXokFYzliiuCQe9sIv6lbLbuG/tQ+K1HtKf5lJ3cKH9RL7SH8Vo8Vkf6qL2bPwRLJC/wo2NP6TGhpHoGhU7Ft4d3Ch/US+0h/FK3fwoOWGa3Q+En7XBaCkpwD/hIOwgbUzgm8w9Sdi3WO5bdrQ4lcU0vfGi7oX2bIBzgXIcOkEqxLjbA66WjqoJ6dxa9kjSw8mbkB5wdh6CV2BhtWJ4YZ2+DNFHK3qe0OHvWlelCEIBCEIBCEIBcu1B75L5aftXLqJct1P0k3lp+1crASKVo4SR/gQi9v0n2v9mnpKrlbjU0zjdxDeRjSQ0D7+srMBhfTztG0vJ67ZT9yruHysikcJmF7crmFoNi12hDunZ6iiM3geNOjcA5xLTyEkgf1zhWebKcsjPBkGYdBWunT5nudpdznO0aGi5NzZo0A12BX6mYW00DXeELXB2gkE2+1B7oaGV0T52sJijIbI+7eKTbkvc7Rs51G0rK4biUbKCqgc48LJJeNljxgRGL3tbTKVhmlWJJehrlI0rzgqQFER4qe8yfu/EFrrhTa3MXfEVsHFD3l/wC78QWueU9bveVnJRcosnAJwasBmVGVSAJQ1S0R5UZFKGpwaliDKk1XpyppjUsNidyJ1k1rbFTOGqCNg48XlY/iXWW4Q3wrDD/sKPsGLk8DjxeVj+JdYbg/qrC/MKPsGLeOlhnUIQtKEIQgEIQgFy1Unvk3lp+1cupVyxVfSTeWn7VysCLDHaP/AGz7gvBjMVM52riHjQhjQ632j1XTxMWRTOG0ONugnKL/AGquxFz3AC5J2BEWbAqCmuHgue4HQPADQfWb+tWKpfoP2vuKodHVujcCD0HmI5lb4Z88Ubue3rsQhKcFSBygBTgVUegOTw5QByeHIG4ie9P/AHfiC18wan9p3vKvtee9O/d+IKiwjb+073lYzU4NTgxSBicGrmiIMTg1ShqcGKCLIlDVMGJQxREORODFMGL009KSVLLeF0KiA0HUrBVYeQw8hIOp2NA2uPQAsKQOTZydXIrE2ILcaLysfxLq3cF9VYX5hR9gxcqvHGi8rH8S6q3B/VWF+YUfYMXXHTUM6hCFpQhCEAhCEAuV6s98m8tP2rl1HUyFrHuGpa1zgOcgXXK75Mxe86F75HEDku8m32qwPJC0ObI08rj7gsHXUTo3aXLdrSNo6FmoH2zk6AOJPqC8FRihJsLBo5wD70R46KlfI4AA9JOwdJVyiaGsYwbG2HXodViMLrQeKSAT4OgAJ5tFlWuvb+uQoJwU4FQgpwKqJgU8OUIKcCgStPe3fu/EFTaZu39p3xFW6rPEd6PiCq1E24PW74isZ6EwYnBilaxSBi4WiEMTwxTBie2NSx5wxPbEvZDTFxsAVZcK3LOLeFnIhiGt3aFw6As5ckYxcortBhj5HBrWkk8wVop8MipgXTOYCy3CFx4kN9mYjUuPIxt3Hm2kSVmICNroqJmRoFnzOsHHTlJsGjrIVUqXwk/nFTmtezWXeG3222AHpuVzxy7/ANL1+n7osabOTHA0shBF3OsJJrbCQPBbyhvpOugweVZ6KHCpBYVVRBJyF8bJoT6BlcPWV5K/CXxDhA6OeG9hNA7My52BwIDmHoI6iV2jwMRKNYvLRfEup9wf1VhfmFH2DFy1UDWLy0XxLqHe8lD8Jw0gWy0kEfXwbAy/py3XfDTULChCFpQhCEAhCEEFf9FL5N/wlcqM2el3xFdV1/0Uvk3/AAlcpt+93xFWB4JLlsgG3N+CwsWhN9CAdvOs9O0tdmAu06OH3rzVVGJDnba/Lbl6+lEeAS6i3Rs51Z6JxyMvtIv/AF9iw9JhgBBeb9A5Vm4xb+tgQTgpwKiBS3VEoKcCogUoKIWpPEPo94WBwuO4PW74is1OeKfR7wvLuap81rjQl2vMc5GvMuXLNYk6OECmpabM9jTezntaSNoBcAVbItzb3bGlZXDNxkhexxFg1zSSdBobryxkxbC7sdyAophwD3zUzy5jJH5S9kzDZ8T7AC/KNBcHouvbFuHc+OjfFn7/AA8JOZMuVj85Aa2wB2DZqVsqXD4GS1LZ3AsqZhLkfsZKNGvHNssTpoo8QxJsDuBIe2SOgqZ2NiY1zwI5A0lguASASQLhWZu4xb6qxFgMVCG3ifLM7RhdG6xd/pFtf62KnY5ulfNKYYY5KmbM5gY1r8rXi4IAHGcRbYLbPCKzlPirZI6xzZq6q72yaNslPE2GkqI5GviqLiVxBDwBfUm/QvRVUjIJq7FYgGtmpWS0dtramtBa4jpblnNlyj9PEz2zmzWmuHYbiFY0ycFUSxMv9DC/gI+ewYMoXihwGR4BZFI8FwYCyN7gXkXDAQPCsCbbdFtvdF+Tw1MbGVNbA2nigFJHTxMMLI8gLXM74M1ze5tqdORS4tWOip8RfTNlpXS18OYECOaIuprvtlJyEkHYdjivRFRpGl6nCXMLmua5rmktc1wLXNcNCCDsI5lDBNNTuzMcQCCHNOrXt5WuHKOhXCeAuJc4lznElznElzidSSTtPSsdV0FxsUjktOzBzytfwTmjLeaLi/onNs6l07vbj+6cP83YfXdcv1EOSSMchlj+JdQ73H1Th3m0fuXow03CyIQhaUIQhAIQhBFVsLo5Gja5jmjrIIC5Rcwtc5p2te9rrbLh5BXWZXJ1U8GSVwNw6WYtI2EGRxBVCaFR/kzb3tqnApwKIWNgGwKS6jBSgoJbpQ5RApbqiUFKCogUuZA6Y8U+j3rx4JVviDXxuLXAv1Gw8Y6Ecq9Mh09XvTtzmG8LFwkjxDAwv4SVwv8A4jxWD/E73eq/Ll0krlgW7+ZpEZpBUPdowRPMdz0NDHacqz9Vu0ljyiURxzPLRFSU54eoJJsA6R3Fbc6aAftciowxXK0w4fGYIzpJUOs6pn63W4o6BYdAS4Vhb3SMEdzM97chJGZ0hIsbu5b22ry5M3S1bo4xUSvgq8TEEpOWaGGlkdTskIF2STZgX9JDQ3nGix+J1FdDURtnmd+UUIEMUgy3ay1xxrcYFpGrtoOqytVW00sj/wAvo3MqMxbPPSy5HF7TYkxOuwu028qykODtpzVzcOxzmR0rqSoqGvfwbJr2eW2dxwG5RpYdGxar+JPlVqvGZ52GJzo2xucHSNiiihEjhsL8gGb0r31NFVHhcPfKwx4eyapy/wCHijM7KbXJ74dvOVlZqq8XCPqop6uKWN1NKyN5eGuu17Hl0YBFjcXvyrL1GJzisxJgfxIqWpfEMkXFe2NhBvludp0NwlfZSlYhramGkp5Wyse3hJIoRJBFI+nyAG7HuBIGuzkssS+slcx8bn5myS8PJexc6UAjMTt2Eq44TStqI6MTWcHVdZLICLCQiMPIIHISNgSQ1AkLmVVXTy072vAiZFKOBdlOR0XexlsbcuzbdSY15KUfglFLTrJiJI6FcrZUTdBBldCf/wBo/eujN7hhbhOHBwsTTROH7LhmafUQtB7rorCE/wC4i966C3BG+FYZ5hR36+AZdezin8XXHTPIQhdWghCEAhCEDZPBPUfcuSGfe74iut5PBPUfcuR2n3u+IoJLpQVGCnAqofdKCmXSgoH3S3Xl2ucLuAAbsNtqdGQRoXaE6k6oPQCluomJ10D3H7veo8Le+aOOK/e4i+zRsLjI4k/alJ9496yO5CC8YPO5/wAZXLmmsUy0y9HRgAL3xMIIIuCCCCNCCNhCmjiU7Il4rcmRdjLZDnnpKaaXllIkYXnne1pAcfekbjExlklfkkEzQyWJze9PjGxoA2WtpbYvI2JStiV7Stymqa/NHwUUUcEZcHuawvcZHjYXOcSSBzL1Oxp5lMxihzPjfFOLPyztcADm10PFGxeNsaeIk7SXKRuIyARiMNj4KaSaLLfil1uLqdgAspzils7o4IYZZA5r5WZ7gO8LKCbMv0LzCJOEadpLl4+CQYl7RGgxrKKNu4itHCf9zD7yt4b3Q/unDPMqbswtNb4DLQw+dQe8rcu939U4Z5lTdmF7OD1dcNLEhCF2aCEIQCEIQC5Krvpp/LTdo5darkivPfp/Lz9q5Ay6LpgKW6qH3S3TLpboIuFDXuubXDbfalZK0ZuMDck8vKpLougWI8UdQT7pl0XQPB+73qx7io7wNP8Aqk7RyrTTr6QrduFZemj65O0cuHP6s5aWFkamZGpmRqZka8bmhbGpGxKdsalEaDziJSCNTtYnhio84jS8GvVkS5EHl4NHBr1ZEZEFD3yGWgh86g+9bh3BD+6sL8wo+wYtS75zbU8PndP/ADLbe4L6qwvzCj7Bi9fD6uuGmdQhC7NBCEIBCEIBcjYge/T+Xn7Vy65XIlee/T+Xn7VyCO6W6julBVQ+6W6ZdF0D7pbpl0XQPui6ZdF0EsZ1HWFeNwDfzWPrl7VyosR1HWr/AL3g/NIuuXtXLhz+rOelqYxTNYnMapWtXkczWsUjWJ4anhqtBgYnhqeGpwarSow1OyqQNS5VaEWVGRTWS5UoUDfTFqaHzun/AJltbcF9VYX5hR9gxaj32agZKaIbfymJ7ugXIHvW3Nwf1VhfmFH2DF6eGPxdMdM6hCF1aCEIQCEIQC5CxA9+n8vP2rl16uQcRPf6jy8/auQRAoumXS3VQ+6Lpt0XQOulumXRdA+6Lpt0XQSQnjDrWxN7n/6kf7UvauWuoDxh1rYe9s781Z+1L2jlw5/VnPS7sClATWKQLzRDBwCeAmhOC1SnBOCaE4K0HIAQAnSPawXceobSeoJNRFytFaxY/E8VbGeCjHCznYwGzWf6pHbGj7eZRYjiHEJdI2mh2F5dZzugHlPQ25ValxunjFoYqpzdpkEDWsJ5yHvD3HpNiuOPPGU1jHj6vVh93sRFO17nZ5JKumMklrA6us1o5GDkHpK3NuD+qsL8wo+wYtG7q8dhqaVrG3bKyqpiWOFiW3Oo/DpC3luD+qsL8wo+wYvfx+rUM6hCFtQhCEAhCEAuQMS+nqPLz9q5dfrj/Efp6jy8/auQQJU1KqhUXSIQOuhNSoFui6RCCWn8JvWrzvZz96y31D3/AGvKotP4TetW3c3SS0lPT1wu+nmEhmIH0JbK8Eno0vfmPMCRx5ovFMtNqRbFJZeXDqhsjQ5pBBFwQve1i88RbBgCcApBGniPlOgGpJ0AW6WkTQpMoAuSAOcrzVGIMZo3jE7NCb9Q2nr0HSsa6pkmNm3dyaGzW9bhoOpvUbbV58+eInrhFy11ZGpxANuG208JxsMo5zfRvp9S8DXSSniDbtkkBy/utOrus2HQV6abDQLF/GI1AtZjD0N+83PSsg1qzH6fLOb5Z/z9i/jGQ4MzNwkl5ZLWzyHMQOZvI0dAsF6JcOYRbKPUF7gEtl6YwiIqIZpp/fIwdsLoJWiwdPE0+tby3B/VWF+YUfYMWr992L82p3c1XB9uZbQ3BfVWF+YUXYMXfi8YtY6Z1CELo0EIQgEIQgFx7iP09R5eftXLsJceYl9PUeXn7VyohQmpbohbpbpEIFRdIhAt0XSIQTU3ht61u7e2iDsJpA4XBE3/AGJFpCm8NvWt7b14/umj6p/+xIsZ6DJNzL4HF9C8Rjaad47wTr4NtYv3bjmYFLFiU7CGzUso2DPGWvjPrIdbraFZ8qjqZmxMfJI4NZG0ve47GtAuSuPVOrGOrZLcWB97Xu+zWgc5dqB6bdYWEqsRe9wbm4Rx1a2MXHW0bB1knofyLFzYvNicpZCTHTsOumgI5+R7+vig7ASMytmFYUyFtmjU6ucTmc885J1JXmywyzmpnwl/Hio8Jc7WXl1LGkm9/wBN2132DnB2rMRwhoAAAA2AaKfIlyrthx44RUCPKlyqTKlyrYjDU4BPypwagoO+8PzODzyn/mWyNwf1VhfmFH2DFrzfgb+ZQ+e038y2HuD+qsL8wo+wYu2GmoZ1CELShCEIBCEIBcd4j9PUeXn7Vy7EXHeI/T1Hl5+1cggQkuhVCoSIQKlumpUC3RdIhBNTeG3rW+t60f3TR9U//YkWhKXw29a35vVG+EUf/sD1VMixnoWmypO+1VOZRMiYSDUVDI3Efota59urM1qvNlS99ekLqKOUC/5NURyOA/Qc1zL+tzVzkLuNw1sUEYA5BfpVoaxYPcpUNkhjINwWhWNgXPDTEI8iUMUoanBq2qEMS5FNlS5UVDkS5VLlRlQa/wB+MfmEPntN/Mr/ALg/qrC/MKPsGKg787wKGAcpraa3TbMr9uD+qsL8wo+wYuuGlhnUIQtKEIQgEIQgFyZu1wx9JiNbA8EWqJXs0sHRSOL2OHRZw9RXWaqu7fcLSYq1vDZop4xaKoitwjR+iQdHN6D6LIOXELbc28VUXOSvgLeTPTyNd6bPKZ3C6vx6m9hL8yo1Oi62x3C6vx6m9hL8yO4XV+PU3sZfmQanui62x3C6vx6m9jL8yTuF1fj1N7GX5kGqboW1u4XV+PU3sZfmS9wur8epvYy/Mg1XA6zmnmKv+9pu+ioBJQ1pcyAyOkp5g0uEWc6scBrlJ1vrYk+jK9wur8epvYy/Mn9w+qIs+spXgbLwyXH2qT5F5Zuzwsi4xCjseeojafUTdR1e6jCZY3xSV9E5kjSx4NTFq0jXlVL7hMvjVL/DzfOjuEy+NUvsJvnWesCGkx2lwyUtjrKappHuu3g543yQE8haDct92zpNzo93OGOAJraZvQ6ZjT9pVS7hMvjVL7Cb50dwmXxql9hN86zHHEM9V5buywv/ADCi/iIvxTv7Y4X/AJhRfxEX4qidwmXxql/h5vnR3CZfGqX+Hm+da6QtL5/bHC/8xov4mL8Uv9scL/zGi/iYvxVC7hMvjVL7Cb50dwmXxql9hN86dIKX3+2WF/5jRfxMX4qObdvhTQScQpCB+jM159TblUbuEy+NUv8ADzfOlbvEyX1q6YDlIppXH7ZE6QUrW73df/8AL1VNTULHugikDoyRldU1DuKyzdoGthfXjFdEYLRfk9NT0+3gIIYb8+Rgb9yqu4re0o8NcJrmoqR4Mr2tYyK4sTGwbDt1JJ1V3WtKEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQg/9k=" alt="Course Image" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">OnePlus Nord CE6 Lite 5G 128 GB, 8 GB RAM, Hyper Black, Mobile Phone</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 25,999/-</button>
+                </div>
+            </div>
+
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:450/apple/494494207/0/-lcMnSkiP--kUM_sq3nTH-Apple-iPhone-16e-494494207-i-1-1200Wx1200H.jpeg" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Apple iPhone 16e 128 GB, White</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 59,900/-</button>
+                </div>
+            </div>
+
+
+             <br>
+        </div>
+
+        <h2>Laptops</h2><br>
+         <div class="gridstyle">
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/dell/494582804/0/4MgaJfltFA-C09Asxh2t1-Dell-15250-Laptop-494582804-i-1-1200Wx1200H.jpeg" alt="Course Image" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Dell DC 15250 Standard Laptop (Intel Core i5-1334U/16 GB/512 GB SSD/Integrated/Windows 11/MS Office H&S 2021 + 15 Month McAfee/Full HD), 39.62 cm - 15.6 inch, Platinum Silver</h5>
+                    
+ 
+                    <button class="btn btn-primary" type="button"> RS - 71,990/-</button>
+                </div>
+            </div>
+
+             <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/hp/494743094/0/bFabv7cECs-M-J0aZZ0J-494743094-1.jpg" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">HP 15 15-FD0901TU Standard Laptop (Intel Core 5-120U/24 GB/512 GB SSD/Intel Iris Xe Graphics/Windows 11 Home/MS Office Home 2024/Full HD), 39.6 cm - 15.6 inch, Natural Silver</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 74,995/-</button>
+                </div>
+            </div>
+
+             <div class="card" style="width: 300px;">
+                  <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/dell/494742337/0/wU1Gnxoiyd-uANk28bgs-DC14250.jpg" alt="Course Image" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Dell 14 Series DC14250 Notebook Laptop (Intel Core 5 120U/16 GB/512 GB SSD/Shared-Intel Graphics/Windows 11/MS Office H&S 2021 + 15 Month McAfee/FHD+), 35.56 cm - 14 inch, Silver</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 74,490/-</button>
+                </div>
+            </div>
+
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/lenovo/494742285/0/XociJKUBaU-TyeecQSnv-Lenovo-82X700HLIN-Laptop-494742285-i-1.jpg" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Lenovo IdeaPad Slim 3 15IRU8 82X700HLIN Standard Laptop (Intel Core i3-1305U Processor/8 GB/512 GB SSD/Integrated Intel UHD Graphics/Windows 11 Home/Office Home 2024/Full HD), 39.62 cm - 15.6 inch, Arctic Grey</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 44,900/-</button>
+                </div>
+            </div>
+            </div>
+
+            <br>
+
+            <h2>Smart Watches</h2><br>
+         <div class="gridstyle">
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/titan/494352466/0/4Kmt9yglf5-oho2VoB-wQ-Titan-Zeal-Rose-Gold-Black-Mesh-Smartwatch-494352466-i-1-1200Wx1200H.jpeg" alt="Course Image" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Titan Zeal Premium Metal Smartwatch with 4.69 cm (1.85 inch) AMOLED Display, BT Calling, AI Coach, 100+ Sports Modes, Voice Assistant & IP68 Water Resistance, Rose Gold & Black Mesh</h5>
+                    
+ 
+                    <button class="btn btn-primary" type="button"> RS - 9,989/-</button>
+                </div>
+            </div>
+
+             <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/titan/494352467/0/L-zDLcd9A0-pTZaLWtVCr-Titan-Zeal-Rose-Gold-Rose-Gold-Mesh-Smartwatch-494352467-i-1-1200Wx1200H.jpeg" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Titan Zeal Smartwatch, Rose Gold & Rose Gold Mesh</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 3,999/-</button>
+                </div>
+            </div>
+
+             <div class="card" style="width: 300px;">
+                  <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/titan/494352468/0/yea0MNZ7Ka-BqvApevN-9-Titan-Zeal-Black-Black-Leather-Smartwatch-494352468-i-1-1200Wx1200H.jpeg" alt="Course Image" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Titan Zeal Premium Metal Smartwatch with 4.69 cm (1.85 inch) AMOLED Display, BT Calling, AI Coach, 100+ Sports Modes, Voice Assistant & IP68 Water Resistance, Black & Black Leather</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 3,999/-</button>
+                </div>
+            </div>
+
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/titan/494352472/0/Jcu5U9-c39-QiZ0jg-yqA-Titan-Smart-3-Black-Smartwatch-494352472-i-1-1200Wx1200H.jpeg" style="width: 100%;">
+ 
+                <div class="card-body">
+                    <h5 class="card-title">Titan Smart 3 Premium Metal Smartwatch with 4.97 cm (1.96 inch) Super AMOLED Display, BT Calling, 100+ Sports Modes, Alexa Built-in, IP68 Water Resistance & NitroFast Charging, Black</h5>
+                   
+                    <button class="btn btn-primary" type="button"> RS - 4,995/-</button>
+                </div>
+            </div>
+            
+            
+
+
+   
+</div>
+
+
+</body>
+</html>

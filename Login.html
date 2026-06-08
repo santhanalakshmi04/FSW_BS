@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management Login Portal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:lemonchiffon;
+        }
+
+        .login-card{
+            max-width:800px;
+            margin:auto;
+            margin-top:40px;
+            padding:30px;
+            border-radius:15px;
+            background:wheat;
+           
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="login-card">
+
+        <h2 class="text-center text-danger mb-4">
+            Employee Management Login Portal
+        </h2>
+
+        <form>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Employee ID</label>
+                    <input type="text" class="form-control" placeholder="Enter Employee ID">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Employee Name</label>
+                    <input type="text" class="form-control" placeholder="Enter Employee Name">
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Company Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Company Email">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Office Location</label>
+                    <select class="form-select">
+                        <option>Select Location</option>
+                        <option>Chennai</option>
+                        <option>Bangalore</option>
+                        <option>Hyderabad</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Department</label>
+                    <select class="form-select">
+                        <option>Select Department</option>
+                        <option>HR</option>
+                        <option>Developer</option>
+                        <option>Testing</option>
+                        <option>Support</option>
+                        <option>Finance</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Designation</label>
+                    <select class="form-select">
+                        <option>Select Designation</option>
+                        <option>Intern</option>
+                        <option>Trainee</option>
+                        <option>Software Engineer</option>
+                        <option>Senior Developer</option>
+                        <option>Team Lead</option>
+                        <option>Manager</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="Enter Password">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Upload Employee ID Card</label>
+                <input type="file" class="form-control">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                    Remember Me
+                </label>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                    I Accept Company Policy & Terms
+                </label>
+            </div>
+
+            <div class="text-center">
+
+                <button type="submit" class="btn btn-primary px-5">
+                    Login
+                </button>
+
+                <button type="reset" class="btn btn-secondary px-5">
+                    Reset
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
